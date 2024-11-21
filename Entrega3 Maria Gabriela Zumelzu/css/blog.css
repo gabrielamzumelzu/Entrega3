@@ -1,0 +1,50 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
+html {
+  background-color: bisque;
+}
+
+header {
+  width: 100%;
+  height: 30%;
+  background-color: white;
+}
+header #imagen_principal {
+  display: flex;
+  margin: auto;
+}
+header nav ul {
+  display: flex;
+  background-color: blueviolet;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 30px;
+}
+header nav ul li {
+  color: white;
+}
+header nav ul li:link {
+  color: white;
+  text-decoration: none;
+}
+header nav ul li:hover {
+  display: block;
+  background-color: aqua;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 2px;
+}
+header nav ul li:visited {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+/*# sourceMappingURL=blog.css.map */
